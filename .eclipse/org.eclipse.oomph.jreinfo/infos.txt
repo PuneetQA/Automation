@@ -1,0 +1,1 @@
+/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home:21:0:2:64:true:1704480509000:aarch64
