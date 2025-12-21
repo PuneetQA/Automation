@@ -1,0 +1,16 @@
+# CODEOWNERS
+# This file defines code ownership for the Automation repository.
+# Users mentioned here will be automatically requested for review when PRs are opened.
+
+# Default owners for everything in the repo
+* @PuneetQA
+
+# GitHub workflow and CI configuration
+/.github/ @PuneetQA
+
+# Test suite ownership
+/src/test/ @PuneetQA
+
+# Build configuration
+pom.xml @PuneetQA
+build.gradle @PuneetQA
