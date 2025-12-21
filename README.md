@@ -17,8 +17,8 @@ A concise, technical automation repository containing test suites and supporting
    mvn -B clean test
    ```
 3. Local report
-   - Allure (if configured): mvn allure:serve
-   - JUnit XML: target/surefire-reports/*.xml
+   - Allure (if configured): `mvn allure:serve`
+   - JUnit XML: `target/surefire-reports/*.xml`
 
 ## What's inside
 - src/test/java — Test suites and utility code
@@ -30,4 +30,4 @@ A concise, technical automation repository containing test suites and supporting
 - Badge(s) in top-level README will reflect build status and test coverage (when available).
 
 ## Contribution notes
-- Branch naming: feat/feature-name, fix/bug-name, etc.
+- Branch naming: `feat/login-validation`, `fix/payment-timeout`, `chore/update-dependencies`
