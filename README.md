@@ -11,16 +11,18 @@ Quick start
 1. Prerequisites
    - Java 11+ and Maven (or the repo's build tool)
 2. Clone and run
+   ```bash
    git clone https://github.com/PuneetQA/Automation.git
    cd Automation
    mvn -B clean test
+   ```
 3. Local report
    - Allure (if configured): mvn allure:serve
    - JUnit XML: target/surefire-reports/*.xml
 
 What's inside
 - src/test/java — Test suites and utility code
-- pom.xml / build.gradle — Build &amp; dependencies
+- pom.xml / build.gradle — Build & dependencies
 - docs/ — Optional test output, screenshots, demo GIFs
 
 CI / Reporting
@@ -28,4 +30,4 @@ CI / Reporting
 - Badge(s) in top-level README will reflect build status and test coverage (when available).
 
 Contribution notes
-- Branch naming: feat/
+- Branch naming: feat/feature-name, fix/bug-name, etc.
